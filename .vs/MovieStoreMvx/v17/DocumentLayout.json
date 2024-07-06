@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\movie\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\movie\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\models\\domain\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\models\\domain\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\genre\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\genre\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\genre\\genrelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\genre\\genrelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\genre\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\genre\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\home\\moviedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\home\\moviedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|d:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\add description\\my -moviestoremvx\\moviestoremvx\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CF2989E-D231-43B7-BFC1-E1D757423DD1}|MovieStoreMvx\\MovieStoreMvx.csproj|solutionrelative:moviestoremvx\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenreList.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Genre\\GenreList.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Genre\\GenreList.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Genre\\GenreList.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Genre\\GenreList.cshtml",
+              "ViewState": "AQIAAAkAAAAA0czMzMwXwEcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T10:34:18.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Genre\\Add.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Genre\\Add.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Genre\\Add.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Genre\\Add.cshtml",
+              "ViewState": "AQIAAAkAAABQNTMzMzMrwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T10:33:56.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Movie\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Movie\\Edit.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Movie\\Edit.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Movie\\Edit.cshtml",
+              "ViewState": "AQIAAJsAAACgCgAAAMAtwLkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T10:32:56.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Genre\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Genre\\Edit.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Genre\\Edit.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Genre\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAADIAAAAAAARwDMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T10:30:38.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Controllers\\GenreController.cs",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MovieStoreMvx\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAjwDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:29:48.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieDetail.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Home\\MovieDetail.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Home\\MovieDetail.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Home\\MovieDetail.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Home\\MovieDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T22:47:11.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Movie\\Add.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Movie\\Add.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Movie\\Add.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Movie\\Add.cshtml",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAwwK0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T22:43:15.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Models\\Domain\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Models\\Domain\\Movie.cs",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Models\\Domain\\Movie.cs",
+              "RelativeToolTip": "MovieStoreMvx\\Models\\Domain\\Movie.cs",
+              "ViewState": "AQIAAAsAAAAAEzMzMzPjvxYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T22:40:47.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MovieStoreMvx\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\course backend.net\\projects\\mvc \u0644\u0644\u0643\u0644\u064A\u0647\\Add Description\\my -MovieStoreMvx\\MovieStoreMvx\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MovieStoreMvx\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAB0AAAAAl5mZmRkWwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T22:40:29.937Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

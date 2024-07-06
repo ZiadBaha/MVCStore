@@ -1,0 +1,257 @@
+﻿@model MovieStoreMvx.Models.Domain.Movie
+
+
+ 
+<style>
+    /* Style for the form container */
+    .movie-form-container {
+        width: 60%;
+        margin: 35px auto;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .pb-10 {
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: xx-large;
+        font-style: oblique;
+        font-family: ui-serif;
+    }
+    /* Style for input containers */
+    .movie-input-container {
+        margin-bottom: 20px;
+    }
+
+    /* Style for labels */
+    .movie-label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #333;
+        font-size: 19px;
+        font-style: italic;
+        font-synthesis: initial;
+        font-family: cursive;
+    }
+
+    /* Style for inputs */
+    .movie-input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        transition: border-color 0.3s;
+        font-size: 16px;
+    }
+
+    .input-container {
+        width: 100%;
+        display: flex;
+        padding: 0.4rem 0;
+        display: grid;
+        text-align: center;
+    }
+
+    .movie-input:focus {
+        border-color: #007bff;
+    }
+
+
+    .btn {
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        font-weight: 500;
+        border: 0;
+        cursor: pointer;
+        box-shadow: 0 3px 3px 0 grey;
+        line-height: 1.5;
+        display: inline-block;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 0.2rem;
+    }
+
+    .btn-default {
+        background: #6a3093; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #a044ff, #6a3093); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin-bottom: 12px;
+    }
+    /* Style for message boxes */
+    .movie-message-box {
+        margin-top: 5px;
+    }
+
+    /* Style for error messages */
+    .movie-error {
+        color: #dc3545;
+        font-size: 14px;
+    }
+
+    /* Style for buttons */
+    .movie-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 16px;
+    }
+
+        .movie-btn:hover {
+            background-color: #0056b3;
+        }
+
+    /* Style for secondary button */
+    .movie-btn-sec {
+        background-color: #6c757d;
+        text-decoration: none;
+        height: 46px;
+    }
+
+        .movie-btn-sec:hover {
+            background-color: #495057;
+        }
+
+    /* Style for alert */
+    .movie-alert {
+        padding: 10px;
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .movie-input-DropDownList {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        transition: border-color 0.3s;
+        font-size: 16px;
+    }
+
+        .movie-input-DropDownList:hover {
+        }
+
+    .OptionValueDropDownList {
+        padding-bottom: 10px;
+    }
+</style>
+<form class="movie-form-container" asp-action="add" method="post" enctype="multipart/form-data">
+    <h2 class="pb-10 text-center">Add Item</h2>
+
+    <div class="movie-input-container">
+        <label asp-for="Title" class="movie-label">Title</label>
+        <input type="text" class="movie-input" asp-for="Title">
+    </div>
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="Title"></span>
+    </div>
+
+    <div class="movie-input-container">
+        <label asp-for="ImageFile" class="movie-label">Image</label>
+        <input type="file" class="movie-input" asp-for="ImageFile">
+    </div>
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="ImageFile"></span>
+    </div>
+
+
+    <div class="movie-input-container">
+        <label asp-for="Genres" class="movie-label">Department</label>
+        <div class="input-group">
+            <select asp-items="Model.GenreList" class="form-select movie-input-DropDownList" asp-for="Genres" multiple>
+            </select>
+        </div>
+    </div>
+
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="Genres"></span>
+    </div>
+
+    <div class="movie-input-container">
+        <label asp-for="ReleaseYear" class="movie-label">Released Year</label>
+        <input type="text" class="movie-input" asp-for="ReleaseYear">
+    </div>
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="ReleaseYear"></span>
+    </div>
+
+    <div class="movie-input-container">
+        <label asp-for="Cast" class="movie-label">Cost</label>
+        <input type="text" class="movie-input" asp-for="Cast">
+    </div>
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="Cast"></span>
+    </div>
+
+    <div class="movie-input-container">
+        <label asp-for="Director" class="movie-label">Director</label>
+        <input type="text" class="movie-input" asp-for="Director">
+    </div>
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="Director"></span>
+    </div>
+
+
+    <div class="movie-input-container">
+        <label asp-for="Description" class="movie-label">Description</label>
+        <input type="text" class="movie-input" asp-for="Description">
+    </div>
+    <div class="movie-message-box movie-error">
+        <span asp-validation-for="Description"></span>
+    </div>
+
+
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="movie-alert mb-1">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="input-container">
+        <button class="btn btn-default" type="submit">Save</button>
+        <a class="btn btn-sec" href="/Movie/MovieList">All records</a>
+    </div>
+</form>
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

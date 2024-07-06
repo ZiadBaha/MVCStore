@@ -1,0 +1,58 @@
+﻿@model MovieStoreMvx.Models.DTO.MovieListVm
+@{
+}
+<style>
+    .btn-sec {
+        background: #4d63df;
+        background: -webkit-linear-gradient(to right, #6275dd, #4d63df);
+        background: linear-gradient(to right, #6275dd, #4d63df);
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        font-family: cursive;
+    }
+
+    .pb-10 {
+        padding-bottom: 21px;
+        text-align: center;
+        font-size: 48px;
+        font-style: oblique;
+        font-family: ui-serif;
+        padding-top: 15px
+    }
+</style>
+
+<div class="tbl-container">
+    <h2 class="pb-10">Items-List</h2>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>ReleaseYear</th>
+            <th>Image</th>
+            <th>cost</th>
+            <th>Director</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var item in Model.MovieList)
+        {
+            <tr>  
+                <td>@item.Title</td>
+                <td>@item.GenerNames</td>
+                <td>@item.ReleaseYear</td>
+                <td><img style="height:80px;width:70px" src="/Uploads/@item.MovieImage" /></td>
+                <td>@item.Cast</td>
+                <td>@item.Director</td>
+                <td>
+                    <a href="/Movie/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                    <a onclick="return window.confirm('Are you sure?')" href="/Movie/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>
+    <div class="input-container">
+        <a href="/Movie/Add" class="btn btn-sec">Back</a>
+    </div>
+</div>

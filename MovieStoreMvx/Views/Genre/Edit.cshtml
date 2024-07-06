@@ -1,0 +1,106 @@
+﻿@model MovieStoreMvx.Models.Domain.Genre
+@{
+
+}
+
+<style>
+    .pb-10 {
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: xx-large;
+        font-style: oblique;
+        font-family: ui-serif;
+    }
+
+    .input {
+        padding: 0 0.5rem;
+        border: 0;
+        box-shadow: 0 1px 3px 0 rgb(43, 43, 43);
+        font-size: 15px;
+        width: 100%;
+        color: var(--primary-color);
+        border-radius: 5px;
+        height: 51px;
+    }
+
+
+    .input-container {
+        width: 100%;
+        display: flex;
+        padding: 0.4rem 0;
+        display: grid;
+        text-align: center;
+    }
+
+    .btn-default {
+        background: #6a3093; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #a044ff, #6a3093); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin-bottom: 12px;
+    }
+</style>
+<div style="margin-top : 60px">
+
+    <form class="w-100" asp-action="Update" method="post">
+         <h2 class="pb-10">Edit Department</h2>
+         <div class="input-container">
+@*             <label asp-for="GenreName" class="w-40">GenreName</label>
+ *@            <input type="text" class="input" asp-for="Id">
+        </div>
+        <div class="message-box pd-x-28 error">
+            <span asp-validation-for="GenreName"> </span>
+        </div>
+
+        @if (TempData["msg"] != null)
+        {
+            <div class="alert mb-1">
+                @TempData["msg"]
+            </div>
+        }
+
+        <div class="input-container" >
+            <button class="btn btn-default" type="submit">Save</button>
+            <a class="btn btn-sec" href="/Genre/GenreList">All records</a>
+        </div>
+    </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+
+<form class="w-40" asp-action="Update" method="post">
+    <h2 class="pb-10">Update Genre</h2>
+    <input type="hidden" class="input" asp-for="Id">
+
+    <div class="input-container">
+        <label asp-for="GenreName" class="w-40">GenreName</label>
+        <input type="text" class="input" asp-for="GenreName">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="GenreName"> </span>
+    </div>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert mb-1">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="input-container">
+        <button class="btn btn-default" type="submit">Save</button>
+        <a class="btn btn-sec" href="/Genre/GenreList">All records</a>
+    </div>
+</form>
+ *@

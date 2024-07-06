@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MovieStoreMvx.Models.Domain.Genre>
+@{
+}
+
+<style>
+    .DepartmentHeaderList {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 54px;
+        font-style: italic;
+        font-family: cursive;
+    }
+
+
+    .btn-sec {
+        background: #4d63df; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6275dd, #4d63df); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6275dd, #4d63df); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        font-style: oblique;
+        font-family: cursive;
+    }
+
+    .tdIconsInDepartmentList{
+        text-align : end;
+    }
+
+    .TdInItemName{
+        padding: 0.8rem;
+        text-align: left;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+</style>
+<div class="tbl-container">
+    <h2 class="DepartmentHeaderList">Departments</h2>
+
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="TdInItemName">@item.GenreName</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="tdIconsInDepartmentList">
+                    <a href="/Genre/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                    <a onclick="return window.confirm('Are you sure?')" href="/Genre/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>
+    <div class="input-container">
+        <a href="/Genre/Add" class="btn btn-sec">Back</a>
+    </div>
+</div>

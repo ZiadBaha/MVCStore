@@ -1,0 +1,41 @@
+1) Name : IPhone   Department: Phones  Cost:100,00 Description : 'These iPhones represent a range of models, showcasing their sleek and modern design. They feature a glossy finish and come in various colors, including black, blue, and shades of gray. Each phone has a multi-camera setup on the back, indicating advanced photographic capabilities. The Apple logo is prominently displayed in the center, highlighting the brand's signature style and quality. These iPhones combine cutting-edge technology with elegant aesthetics, making them popular choices for consumers seeking both functionality and style.'
+
+2)Name : Burger   Department: Food  Cost:200 Description : 'A sandwich burger, often referred to simply as a "burger," is a popular and versatile food item that combines elements of both sandwiches and traditional hamburgers. It typically consists of a juicy beef patty, although variations with chicken, turkey, fish, or plant-based patties are also common. The patty is sandwiched between two halves of a soft bun, which can be plain or sesame-seeded. 
+
+Additional toppings often include fresh lettuce, tomato slices, pickles, onions, and cheese, providing a balance of flavors and textures. Condiments such as ketchup, mustard, mayonnaise, and special sauces add extra taste and moisture. Some versions may include bacon, avocado, or fried eggs for added indulgence. The sandwich burger is celebrated for its customization options, allowing individuals to tailor it to their taste preferences, making it a staple in many fast-food restaurants and home kitchens alike.'
+
+3)Name : Black Heels   Department: Heels  Cost:500   Description : These black high heels are a stylish and sophisticated footwear choice, featuring a classic pointed-toe design and a sleek, streamlined silhouette. The stiletto heels add height and elegance, making them perfect for formal occasions, office wear, or a night out. Crafted from a smooth material, these heels combine timeless appeal with modern chic, easily complementing a variety of outfits.
+
+4) Name : Brown Shoes   Department: Shoes Cost:600   Description : These brown shoes are a pair of stylish and versatile footwear. They feature a sleek design with a smooth finish, suitable for both casual and formal occasions. The rich brown color adds a touch of elegance, making them a great complement to a variety of outfits. The shoes are likely crafted from high-quality materials, ensuring comfort and durability. Their classic look and neutral tone make them a timeless addition to any wardrobe.
+
+5)Name : Red Dress   Department: Dresses Cost:1000   Description :This red dress is an elegant and timeless piece with a flattering, fitted silhouette. It is sleeveless and features a modest V-neckline, adding a touch of sophistication. The hemline has a slight flare, enhancing the dress's femininity and movement. Its bold red color makes it a standout choice, perfect for both casual and formal occasions.
+
+6) Name : cargo Pants   Department: clothes Cost:400   Description :These cargo pants are a practical and stylish clothing item, known for their durability and functionality. They feature a relaxed fit with multiple large pockets on the sides, providing ample storage space. Typically made from sturdy fabric, these pants are ideal for casual wear, outdoor activities, or work settings. Their versatile design makes them a popular choice for those who value both comfort and utility.
+
+7) Name : Pasta   Department: food Cost:150   Description :This pasta dish is a classic Italian meal featuring long, slender strands of spaghetti cooked to perfection. It is typically served with a rich tomato sauce, but it can be customized with various ingredients such as garlic, herbs, meat, or vegetables. The vibrant colors and aromatic flavors make it a delicious and visually appealing choice for any meal.
+
+8) Name : Pink Perfume Department: Perfumes Cost:350   Description : This pink perfume is a delightful and feminine fragrance, presented in an elegant, translucent pink bottle. The design exudes a sense of sophistication and charm, making it a lovely addition to any vanity. The scent likely combines floral and fruity notes, offering a fresh and enchanting aroma perfect for everyday wear or special occasions.
+
+9) Name : Phone Department: Phones Cost:12,000   Description :The phone in the image is a blue smartphone on a white background. It has a rectangular shape with rounded corners and a thin bezel.  While it  could be an iPhone X or similar phone, it is difficult to say for sure from this image. 
+
+Smartphones are mobile phones with a built-in operating system that allows them to run a variety of applications and perform a number of functions beyond just making phone calls. 
+
+10) Name : Watch Department: watches Cost:800   Description :The image you sent is of a silver watch on a white background. The watch has a round, stainless steel case and a black dial. The band is also made of stainless steel. It is a classic wristwatch style that could be worn by both men and women.  
+
+Here is a more detailed description of the watch:
+
+* Color: Silver
+* Material: Stainless steel
+* Dial color: Black
+* Band material: Stainless steel  
+
+11) Name : Sun Glasses Department: SunGlasses Cost:100   Description :The image you sent is of a pair of round, gold Moschino sunglasses.  They have black lenses and a thin gold frame. These sunglasses are likely for women. They are  a classic wayfarer style and would be suitable for most face shapes.
+
+12) Name : Apple Watch Department: watches Cost:2000   Description :The watch in the image is a black smartwatch with a white band. It has a rectangular face with rounded edges.  Since it is a smart watch, it likely has a touchscreen display.  This watch is a fairly simple design and would be suitable for both men and women. 
+
+13) Name : Shirt  Department: Clothes Cost:300   Description :The image you sent me shows a long-sleeved plaid shirt laid flat on a white background. The plaid pattern consists of multiple brown, orange, and beige colored stripes that intersect to create squares.  Here is a simple description of the shirt:
+
+* Long-sleeved
+* Plaid pattern with brown, orange, and beige colors  
+
+14)Name : Sneakers Department: Shoes Cost:300   Description :The image you sent me shows a pair of low-top black canvas sneakers with white laces. They are positioned side-by-side facing the viewer and resting on a white background. There are no markings or branding visible on the shoes in this image. 

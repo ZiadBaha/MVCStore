@@ -1,0 +1,110 @@
+﻿@model MovieStoreMvx.Models.Domain.Movie
+@{
+}
+<style>
+    .custom-table {
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-top:18px;
+        margin-bottom : 25px;
+    }
+
+        .custom-table th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .tr{
+            text-align : center;
+        }
+</style>
+
+<body>
+    <div >
+        <!-- Product Header -->
+         <div class="row mt-4">
+            <div class="col">
+                <h1 class="text-center">@Model.Title</h1>
+            </div>
+        </div> 
+
+        <!-- Product Content -->
+        <div class="row mt-4">
+            <!-- Product Image -->
+            <div class="col-md-6">
+                <img src="/Uploads/@Model.MovieImage" alt="Product Image" class="product-image img-fluid">
+            </div>
+            <!-- Product Details -->
+            <div class="col-md-6">
+               @*  <h2 class="mb-3">@Model.Title</h2>
+                <p class="mb-3">@Model.Genres</p>
+                <p class="mb-3">@Model.ReleaseYear</p>
+                <p class="mb-3">@Model.Director</p>
+                <p class="mb-3">@Model.Cast</p> *@
+
+                <div class="container">
+                    <table class="table table-striped custom-table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Department</th>
+                                <th>Release Year</th>
+                                <th>Made In</th>
+                                <th>Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Model.Title</td>
+                                <td>@Model.Genres</td>
+                                <td>@Model.ReleaseYear</td>
+                                <td>@Model.Director</td>
+                                <td>@Model.Cast</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 class="mb-3">@Model.Cast $</h3>
+                <a href="/Home/index" class="btn btn-primary btn-lg mb-3">Go Bake</a>
+            </div>
+        </div>
+
+        <!-- Product Description -->
+        <div class="row mt-4">
+            <div class="col">
+                <h3>Description</h3>
+                <p>@Model.Description</p>
+            </div>
+        </div>
+
+      </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+@* <body>
+    <div class="container text-center">
+        <a href="/Home/index" class="btn btn-default">Back</a>
+    </div>
+    <div class="all">
+        <div class="container movie-detail">
+            <div class="img-container">
+                <img alt="image" src="/Uploads/@Model.MovieImage">
+            </div>
+
+            <div class="detail-container">
+                <h3>@Model.Title</h3>
+                <h4>@Model.Genres     </h4>
+                <h4>@Model.ReleaseYear</h4>
+                <h4>@Model.Cast       </h4>
+                <h4>@Model.Director   </h4>
+            </div>
+        </div>
+    </div>
+</body> *@

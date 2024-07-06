@@ -1,0 +1,95 @@
+﻿@model MovieStoreMvx.Models.DTO.LoginModel
+@{
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/css/Login.css" />
+    <script src="/js/Login.js"></script>
+</head>
+<body>
+
+    <section class="container">
+        <div class="login-container">
+            <div class="circle circle-one"></div>
+            <div class="form-container">
+                <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
+                <h1 class="opacity">LOGIN</h1>
+                    <form asp-action="Login" method="post">
+                    <input type="text" asp-for="Username" placeholder="USERNAME" />
+                    <span asp-validation-for="Username"></span>
+
+                    <input type="password" asp-for="Password" placeholder="PASSWORD" />
+                    <span asp-validation-for="Password"></span>
+
+                        @if (TempData["msg"] != null)
+                        {
+                            <div class="alert mb-1">
+                                @TempData["msg"]
+                            </div>
+                        }
+
+                    <button class="opacity" type="submit">SUBMIT</button>
+                </form>
+                @*<div class="register-forget opacity">
+                    <a href="">REGISTER</a>
+                    <a href="">FORGOT PASSWORD</a>
+                </div>*@
+            </div>
+            <div class="circle circle-two"></div>
+        </div>
+        <div class="theme-btn-container"></div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+<form class="w-40" asp-action="Login" method="post">
+    <h2 class="pb-10">Login</h2>
+    <div class="input-container">
+        <label asp-for="Username" class="w-40">Username</label>
+        <input type="text" class="input" asp-for="Username">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Username"></span>
+    </div>
+
+
+    <div class="input-container">
+        <label asp-for="Username" class="w-40">Password</label>
+        <input type="Password" class="input" asp-for="Password">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Password"></span>
+    </div>
+
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert mb-1">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="input-container">
+        <button class="btn btn-default" type="submit">Login</button>
+        @*<a class="btn btn-sec" href="#">Add more</a>
+    </div>
+</form>
+*@
